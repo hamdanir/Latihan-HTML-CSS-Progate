@@ -1,0 +1,189 @@
+:root {
+  --topnav: #404146;
+  --spanH1: #f1d00e;
+  --bgAboutChat: #f4f4f4;
+  --btnSend: #f5e477;
+  --bgabout: #e6e6e9;
+  --h2: #979797;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: var(--topnav);
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 20px 80px;
+}
+
+.copy-container {
+  align-content: center;
+  text-align: center;
+}
+
+.copy-container h1 {
+  font-size: 9rem;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.copy-container h2 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+  color: var(--h2);
+}
+
+.copy-container img {
+  width: 300px;
+}
+
+.copy-container span {
+  color: var(--spanH1);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+  background-color: var(--bgabout);
+  text-align: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  padding: 50px;
+}
+
+.content h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.content p {
+  padding: 0 50px;
+}
+
+.myProject {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.myProject h1 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+}
+
+.row .menu-card img {
+  width: 250px;
+}
+
+.chatMe {
+  background-color: var(--bgabout);
+  align-content: center;
+  text-align: center;
+}
+
+.contact-form {
+  padding: 80px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.chatBox input,
+textarea {
+  width: 700px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.chatBox input {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.chatBox textarea {
+  padding: 10px;
+  height: 100px;
+}
+
+.chatBox button {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: var(--btnSend);
+}
+
+.chatBox button:hover {
+  background-color: #f1d00e;
+}
+
+.footer {
+  background-color: #3d4347;
+  color: #fff;
+  height: 200px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-weight: bolder;
+  font-size: 32px;
+  width: 50%;
+  letter-spacing: 10px;
+}
+
+.footer-list {
+  float: right;
+  text-align: center;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
